@@ -1,0 +1,30 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradiente de fundo bonito */
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.slogan {
+    font-size: 1.5em;
+    font-style: italic;
+}
